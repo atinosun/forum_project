@@ -6,6 +6,10 @@
 |---|---|---|
 |Ubuntu|14.04LTS||
 |Windows|10||
-|php|5.6.30(Ubuntu)|Laravel 5.3框架要求的|
-|nginx|1.4.6(Ubuntu)||
-|mysql|5.5.53(Ubuntu)||
+|php|5.6.30(Ubuntu)7.0.12(windows)|Laravel 5.3框架要求php版本需要大于5.6|
+|nginx|1.4.6(Ubuntu)1.11.5(windows)||
+|mysql|5.5.53(Ubuntu/windows)||
+
+#### 说明
+shell脚本请注意crlf和lf的换行符的区别，因为项目基本在家用windows电脑开发，
+故不特殊处理，运行shell的时候注意下。
